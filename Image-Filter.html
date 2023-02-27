@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Image-Filter </title>
+    <style>
+        /* filter type  */
+        /* 1. Blur */
+        /* 2. Brightness */
+        /* 3. Contrast  */
+        /* 4. Grayscale */
+        /* 5. Invert */
+        /* 6. Saturate */
+        /* 7. Hue-rotate */
+        /* 8. Drop-Shadow */
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        .x {
+            height: 400px;
+            width: 350px;
+        }
+        
+        .blur {
+            height: 400px;
+            width: 350px;
+            /* filter: blur(0px); By Defolt */
+            filter: blur(3px);
+        }
+        
+        .brightness {
+            height: 400px;
+            width: 350px;
+            /* filter: brightness(100%); By Defolt brightness olways use % persantage */
+            filter: brightness(150%);
+        }
+        
+        .contrast {
+            height: 400px;
+            width: 350px;
+            /* filter: contrast(100%); By Defolt contrast olways use % persantage */
+            filter: contrast(150%);
+        }
+        
+        .Grayscale {
+            height: 400px;
+            width: 350px;
+            /* filter: grayscale(0); by deflot grayscale olways use % Persantage */
+            filter: grayscale(150%);
+        }
+        
+        .invert {
+            height: 400px;
+            width: 350px;
+            /* filter: invert(0%); by Deflot invert olways use % persantage */
+            filter: invert(100%);
+        }
+        
+        .saturate {
+            height: 400px;
+            width: 350px;
+            /* filter: saturate(100%); by deflot saturate olways use % persntage */
+            filter: saturate(400%);
+        }
+        
+        .hue-rotate {
+            height: 400px;
+            width: 350px;
+            /* filter: hue-rotate(0deg);  by deflot saturate olways use deg degree */
+            filter: hue-rotate(-300deg);
+        }
+        
+        .drop-shadow {
+            height: 400px;
+            width: 350px;
+            /* filter: drop-shadow(x y blur color); by deflot drop-shadow olways use px pixel and blur and color */
+            filter: drop-shadow(0px 0px 30px green);
+            /* box-shadow: 0 0 90px green; */
+        }
+    </style>
+</head>
+
+<body>
+    <img src="https://w0.peakpx.com/wallpaper/599/891/HD-wallpaper-thar-mahindra-thumbnail.jpg" alt="Server Error" class="x">
+    <img src="https://w0.peakpx.com/wallpaper/599/891/HD-wallpaper-thar-mahindra-thumbnail.jpg" alt="Server Error" class="blur">
+    <img src="https://w0.peakpx.com/wallpaper/599/891/HD-wallpaper-thar-mahindra-thumbnail.jpg" alt="Server Error" class="brightness">
+    <img src="https://w0.peakpx.com/wallpaper/599/891/HD-wallpaper-thar-mahindra-thumbnail.jpg" alt="Server Error" class="contrast">
+    <img src="https://w0.peakpx.com/wallpaper/599/891/HD-wallpaper-thar-mahindra-thumbnail.jpg" alt="Server Error" class="Grayscale">
+    <img src="https://w0.peakpx.com/wallpaper/599/891/HD-wallpaper-thar-mahindra-thumbnail.jpg" alt="Server Error" class="invert">
+    <img src="https://w0.peakpx.com/wallpaper/599/891/HD-wallpaper-thar-mahindra-thumbnail.jpg" alt="Server Error" class="saturate">
+    <img src="https://w0.peakpx.com/wallpaper/599/891/HD-wallpaper-thar-mahindra-thumbnail.jpg" alt="Server Error" class="hue-rotate">
+    <img src="https://w0.peakpx.com/wallpaper/599/891/HD-wallpaper-thar-mahindra-thumbnail.jpg" alt="Server Error" class="drop-shadow">
+</body>
+
+</html>
